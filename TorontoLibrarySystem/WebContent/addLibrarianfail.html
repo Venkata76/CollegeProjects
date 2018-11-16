@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Instructor</title>
+<link rel="stylesheet" type="text/css" href="CSS/style1.css"/>
+</head>
+<body>
+
+<table class="admitable">
+<tr><th><a href="AdminHome.html">Home</a></th>
+<th><a href="viewLibrarian.jsp">View Librarians</a></th>
+<th><a href="addLibrarian.html">Add Librarian</a></th>
+<th><a href="viewStudents.jsp">View Students</a></th>
+<th><a href="LogOut">logout</a></th></tr>
+</table>
+<form action="LibrarianRegistration" method="post">
+<div class="addInstructor">
+<table>
+<tr>
+<td><font color="red"><b>Librarian was not Added</b></font></td> 
+</tr>
+<tr>
+<td><b>Email</b> </td>  <td> <input type="email" name="email" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>First Name</b></td><td> <input type="text" name="fname" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Last Name</b></td>  <td><input type="text" name="lname" size="30"><br></td>
+</tr>
+<tr>
+<td><b>Gender</b>  </td><td>   <input type="radio" name="gender" value="male" > Male
+  		   <input type="radio" name="gender" value="female"> Female
+  		   <input type="radio" name="gender" value="other"> Other<br></td>
+ </tr>
+<tr>
+<td><b>Password</b></td>  <td> <input type="password" name="password" size="30" required="required"><br></td>
+</tr>
+
+<tr><td><input type="submit" value="Add Instructor"><td></tr>
+</table>
+</div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+<link rel="stylesheet" type="text/css" href="CSS/style1.css"/>
+</head>
+<body>
+<form action="StudentRegistration" method="post">
+<div class="addInstructor">
+<table>
+<tr>
+<td><b>Email</b> </td>  <td> <input type="email" name="email" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>First Name</b></td><td> <input type="text" name="fname" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Last Name</b></td>  <td><input type="text" name="lname" size="30"><br></td>
+</tr>
+<tr>
+<td><b>Gender</b>  </td><td>   <input type="radio" name="gender" value="male" > Male
+  		   <input type="radio" name="gender" value="female"> Female
+  		   <input type="radio" name="gender" value="other"> Other<br></td>
+ </tr>
+ <tr>
+<td><b>College</b></td>
+<td><select name="college" >
+<option value="null" selected>select..</option>
+<option value="Lambton">Lambton</option>
+<option value="Centinial">Centinial</option>
+<option value="GeorgeBrown">GeorgeBrown</option>
+<option value="UOT">UOT</option>
+<option value="Ryerson">Ryerson</option>
+<option value="WindsorUniversity">WindsorUniversity</option>
+</select></td>
+</tr>
+<tr>
+<td><b>Mobile NO</b></td>  <td> <input type="text" name="mobileno" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Password</b></td>  <td> <input type="password" name="password" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Re-Password</b></td> <td><input type="password" name="repassword" size="30" required="required"><br></td>
+</tr>
+<tr><td><input type="submit" value="Register"><td></tr>
+</table>
+</div>
+</form>
+
+</body>
+</html>

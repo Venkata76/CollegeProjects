@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add book</title>
+<link rel="stylesheet" type="text/css" href="CSS/style1.css"/>
+</head>
+<body>
+<table class="admitable">
+<tr><th><a href="LibrarianHome.html">Home</a></th>
+<th><a href="viewbooksLibrarian.jsp">View Books</a></th>
+<th><a href="addbook.html">Add Books</a></th>
+<th><a href="LogOut">logout</a></th></tr>
+</table>
+<form action="AddBook" method="post">
+<div class="addInstructor">
+<table>
+<tr>
+<td><b>Book ID</b> </td>  <td> <input type="text" name="book_id" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Book Name</b></td><td> <input type="text" name="book_name" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Author</b></td>  <td><input type="text" name="author" size="30"><br></td>
+</tr>
+<tr>
+<td><b>Quantity</b></td>  <td> <input type="number" name="quantity" size="30" required="required"><br></td>
+</tr>
+
+<tr><td><input type="submit" value="Add Book"><td></tr>
+</table>
+</div>
+</form>
+
+</body>
+</html>
